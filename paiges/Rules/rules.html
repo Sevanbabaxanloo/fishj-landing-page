@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="relative">
+      <div class="flex flex-col justify-center font-mulish w-full">
+        <div class="border-b border-gray w-full">
+          <header
+            class="h-[116px] flex flex-col justify-between items-center w-full relative"
+          >
+            <div
+              class="flex items-center justify-center h-[42px] w-full bg-[#051b0a]"
+            >
+              <div
+                class="w-[1357px] max-xxl:w-[94vw] flex justify-between max-lg:justify-end"
+              >
+                <div
+                  class="flex items-center gap-[10px] ml-[4vw] max-lg:hidden"
+                >
+                  <div class="flex items-center">
+                    <img src="../../image/done.svg" class="w-[24px] mr-[5px]" />
+                    <p class="text-[#fff] text-[14px] font-[600]">
+                      10 years in business
+                    </p>
+                  </div>
+                  <div class="flex items-center">
+                    <img src="../../image/done.svg" class="w-[24px] mr-[5px]" />
+                    <p class="text-[#fff] text-[14px] font-[600]">
+                      50,000 satisfied customers
+                    </p>
+                  </div>
+                  <div class="flex items-center">
+                    <img src="../../image/done.svg" class="w-[24px] mr-[5px]" />
+                    <p class="text-[#fff] text-[14px] font-[600]">
+                      15,000 angler rewiews
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="flex items-center gap-[10px] mr-[2.5vw] max-lg:mr-[10vw] max-lg:w-[300px] max-lg:justify-end max-xs:hidden"
+                >
+                  <div class="flex items-center">
+                    <img
+                      src="../../image/phonew.png"
+                      class="w-[18px] mr-[5px]"
+                    />
+                    <p class="text-[#fff] text-[14px] font-[600]">
+                      +12131415161
+                    </p>
+                  </div>
+                  <div class="flex items-center gap-[10px] max-lg:w-[130px]">
+                    <a href=""
+                      ><img src="../../image/letterw.png" class="w-[18px]"
+                    /></a>
+                    <a href=""
+                      ><img src="../../image/facebook.svg" class="w-[18px]"
+                    /></a>
+                    <a href=""
+                      ><img src="../../image/twitter.svg" class="w-[18px]"
+                    /></a>
+                    <a href=""
+                      ><img src="../../image/youtube.svg" class="w-[18px]"
+                    /></a>
+                    <a href=""
+                      ><img src="../../image/instagram.svg" class="w-[18px]"
+                    /></a>
+                  </div>
+                </div>
+                <div class="hidden max-xs:block max-xs:w-full">
+                  <div class="flex justify-between mx-[33px]">
+                    <div>
+                      <a href=""
+                        ><img src="../../image/phonew.png" class="w-[18px]"
+                      /></a>
+                    </div>
+                    <div>
+                      <a href=""
+                        ><img src="../../image/letterw.png" class="w-[18px]"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hidden max-lg:block">
+              <div
+                class="flex justify-between items-center w-[74vw] h-[74px] max-xs:w-screen"
+              >
+                <div class="w-[36px] h-[40px] max-xs:ml-[29px]">
+                  <img src="../../image/logo.svg" />
+                </div>
+                <div class="w-[150px] h-[40px] relative">
+                  <img
+                    src="../../image/textlogo.svg"
+                    class="absolute top-[-55px]"
+                  />
+                </div>
+                <div class="flex">
+                  <div>
+                    <div
+                      class="flex justify-center max-xs:mr-[26px]"
+                      id="menuIcon"
+                      onclick="toggleMenu()"
+                    >
+                      <img src="../../image/menu.svg" />
+                    </div>
+                    <div
+                      class="absolute right-0 top-0 w-[50%] h-screen bg-[#012539] z-50 max-sm:w-[75%] hidden_menus"
+                      id="overlayDiv"
+                    >
+                      <div class="mt-[26px]">
+                        <div
+                          class="flex justify-end mr-[163px] max-sm:mr-[28px]"
+                        >
+                          <img
+                            src="../../image/x.svg"
+                            id="closeButton"
+                            onclick="toggleMenu()"
+                          />
+                        </div>
+                        <div
+                          class="mt-[45px] ml-[6.6vw] flex flex-col justify-start gap-[15px]"
+                        >
+                          <li
+                            class="list-none text-[#fff] text-[20px] font-[600] leading-[36px]"
+                          >
+                            <a href="">Home</a>
+                          </li>
+                          <li
+                            class="list-none text-[#fff] text-[20px] font-[600] leading-[36px]"
+                          >
+                            <a href="">About us</a>
+                          </li>
+                          <div>
+                            <div>
+                              <li
+                                class="list-none text-[#fff] text-[20px] font-[600] leading-[36px] flex items-center"
+                                id="venuesLink"
+                              >
+                                <a href="" class="mr-[15px]">Venues</a
+                                ><img
+                                  src="../../image/arrow-wightmenu.svg"
+                                  id="arro../../Image"
+                                />
+                                <img
+                                  src="../../image/closearrow.svg"
+                                  class="hidden w-[21px] h-[12px]"
+                                  id="closeArro../../Image"
+                                />
+                              </li>
+                            </div>
+                            <div class="hiddenn" id="submenus">
+                              <div class="block">
+                                <li class="list-none w-[185px]">
+                                  <a
+                                    href=""
+                                    class="list-none text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                    >All Venues</a
+                                  >
+                                </li>
+                                <li class="list-none w-[185px]">
+                                  <a
+                                    href=""
+                                    class="text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                    >Carp Fishing France Lakes</a
+                                  >
+                                </li>
+                                <li class="list-none w-[185px]">
+                                  <a
+                                    href=""
+                                    class="text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                    >Carp Fishing Lakes With Accommodation</a
+                                  >
+                                </li>
+                                <li class="list-none w-[185px]">
+                                  <a
+                                    href=""
+                                    class="text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                    >Big Carp Fishing Lakes</a
+                                  >
+                                </li>
+                                <li class="list-none w-[185px]">
+                                  <a
+                                    href=""
+                                    class="text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                    >Runs Water Fishing Lakes</a
+                                  >
+                                </li>
+                                <li class="list-none w-[185px]">
+                                  <a
+                                    href=""
+                                    class="text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                    >Family Friendly Fishing Lakes</a
+                                  >
+                                </li>
+                                <li class="list-none w-[185px]">
+                                  <a
+                                    href=""
+                                    class="text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                    >Fishing Lakes With Swimming Pools</a
+                                  >
+                                </li>
+                              </div>
+                            </div>
+                          </div>
+                          <li
+                            class="list-none text-[#fff] text-[20px] font-[600] leading-[36px]"
+                          >
+                            <a href="">FAQ</a>
+                          </li>
+                          <li
+                            class="list-none text-[#fff] text-[20px] font-[600] leading-[36px]"
+                          >
+                            <a href="">Blog</a>
+                          </li>
+                          <li
+                            class="list-none text-[#fff] text-[20px] font-[600] leading-[36px]"
+                          >
+                            <a href="">Customer Area</a>
+                          </li>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="absolute right-0 top-0 w-[50%] h-screen bg-[#012539] z-30 max-sm:w-[75%] hidden_menus"
+                    id="overlayDiv"
+                  >
+                    <div class="mt-[26px]">
+                      <div class="flex justify-end mr-[163px] max-sm:mr-[28px]">
+                        <img
+                          src="../../image/x.svg"
+                          id="closeButton"
+                          onclick="toggleMenu()"
+                        />
+                      </div>
+                      <div
+                        class="mt-[45px] ml-[68px] flex flex-col justify-start gap-[15px]"
+                      >
+                        <li
+                          class="list-none text-[#fff] text-[20px] font-[600] leading-[36px]"
+                        >
+                          <a href="">Home</a>
+                        </li>
+                        <li
+                          class="list-none text-[#fff] text-[20px] font-[600] leading-[36px]"
+                        >
+                          <a href="">About us</a>
+                        </li>
+                        <div>
+                          <div>
+                            <li
+                              class="list-none text-[#fff] text-[20px] font-[600] leading-[36px] flex items-center"
+                              id="venuesLink"
+                            >
+                              <p class="mr-[15px]">Venues</p>
+                              <img
+                                src="../../image/arrow-wightmenu.svg"
+                                class="visible_menu"
+                                id="arro../../Image"
+                              />
+                              <img
+                                src="../../image/closearrow.svg"
+                                class="hidden"
+                                id="closeArro../../Image"
+                                onclick="handleMenuToggle()"
+                              />
+                            </li>
+                          </div>
+                          <div class="hidden_menus" id="submenus">
+                            <div class="block">
+                              <li class="list-none w-[185px]">
+                                <a
+                                  href=""
+                                  class="list-none text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                  >All Venues</a
+                                >
+                              </li>
+                              <li class="list-none w-[185px]">
+                                <a
+                                  href=""
+                                  class="text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                  >Carp Fishing France Lakes</a
+                                >
+                              </li>
+                              <li class="list-none w-[185px]">
+                                <a
+                                  href=""
+                                  class="text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                  >Carp Fishing Lakes With Accommodation</a
+                                >
+                              </li>
+                              <li class="list-none w-[185px]">
+                                <a
+                                  href=""
+                                  class="text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                  >Big Carp Fishing Lakes</a
+                                >
+                              </li>
+                              <li class="list-none w-[185px]">
+                                <a
+                                  href=""
+                                  class="text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                  >Runs Water Fishing Lakes</a
+                                >
+                              </li>
+                              <li class="list-none w-[185px]">
+                                <a
+                                  href=""
+                                  class="text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                  >Family Friendly Fishing Lakes</a
+                                >
+                              </li>
+                              <li class="list-none w-[185px]">
+                                <a
+                                  href=""
+                                  class="text-[#fff] text-[15px] font-[400] leading-[36px]"
+                                  >Fishing Lakes With Swimming Pools</a
+                                >
+                              </li>
+                            </div>
+                          </div>
+                        </div>
+                        <li
+                          class="list-none text-[#fff] text-[20px] font-[600] leading-[36px]"
+                        >
+                          <a href="">FAQ</a>
+                        </li>
+                        <li
+                          class="list-none text-[#fff] text-[20px] font-[600] leading-[36px]"
+                        >
+                          <a href="">Blog</a>
+                        </li>
+                        <li
+                          class="list-none text-[#fff] text-[20px] font-[600] leading-[36px]"
+                        >
+                          <a href="">Customer Area</a>
+                        </li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="h-[74px] flex justify-between items-center w-[1440px] max-xxl:w-[100vw] max-lg:hidden"
+            >
+              <div>
+                <img
+                  src="../../image/Layer_1.png"
+                  alt="angling lines"
+                  class="w-[50px] h-[50px]"
+                />
+              </div>
+              <div class="flex items-center relative">
+                <ul class="flex justify-between items-center text-center w-481">
+                  <li class="flexx font-600 cursor-pointer" id="venuesListItem">
+                    <p>Venues</p>
+                    <img
+                      class="ml-[6px] cursor-pointer"
+                      src="../../image/ARROW-VECTOR.svg"
+                      alt="arrow down"
+                    />
+                    <img
+                      src="../../image/venusemenuarrowup.svg"
+                      class="ml-[6px] hidden-cursor-point"
+                      alt="arrow up"
+                    />
+                  </li>
+                  <li class="font-600 cursor-pointer"><a href="#">FAQ</a></li>
+                  <li class="font-600 cursor-pointer"><a href="#">Blog</a></li>
+                  <li class="font-600 cursor-pointer">
+                    <a href="#">About us</a>
+                  </li>
+                  <div
+                    class="cursor-pointer border border-[#35c853] leading-height rounded-2xl"
+                  >
+                    <li class="cursor-pointer font-600 text-[#35c853] pl-4 pr-4">
+                      <button>Customer Login</button>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="absolute bg-white z-20 top-[120px] left-0 w-full hidden"
+              id="submenu"
+            >
+              <div class="flex justify-center">
+                <div class="h-[300px] w-[1600px] max-xxl:w-full">
+                  <div
+                    class="text-[#012539] text-[20px] font-[700] leading-[36px]"
+                  >
+                    <h2>Venues</h2>
+                  </div>
+                  <div class="flex justify-center gap-[20px] mt-[10px]">
+                    <div>
+                      <div
+                        class="bg-center bg-no-repeat bg-cover w-[250px] h-[160px]"
+                        style="
+                          background-image: url('../../image/Rectangle 295.jpg');
+                        "
+                      ></div>
+                      <div>
+                        <p
+                          class="text-[14px] font-[400] leading-[36px] mt-[8px]"
+                        >
+                          All Venues
+                        </p>
+                      </div>
+                    </div>
+                    <div>
+                      <div
+                        class="bg-center bg-no-repeat bg-cover w-[250px] h-[160px]"
+                        style="
+                          background-image: url('../../image/Rectangle 296.jpg');
+                        "
+                      ></div>
+                      <div>
+                        <p
+                          class="text-[14px] font-[400] leading-[20px] mt-[8px]"
+                        >
+                          Carp Fishing Lakes With Accommodation
+                        </p>
+                      </div>
+                    </div>
+                    <div>
+                      <div
+                        class="bg-center bg-no-repeat bg-cover w-[250px] h-[160px]"
+                        style="
+                          background-image: url('../../image/Rectangle 298.png');
+                        "
+                      ></div>
+                      <div>
+                        <p
+                          class="text-[14px] font-[400] leading-[36px] mt-[8px]"
+                        >
+                          Big Carp Fishing Lakes
+                        </p>
+                      </div>
+                    </div>
+                    <div>
+                      <div
+                        class="bg-center bg-no-repeat bg-cover w-[250px] h-[160px]"
+                        style="
+                          background-image: url('../../image/Rectangle 299.jpg');
+                        "
+                      ></div>
+                      <div>
+                        <p
+                          class="text-[14px] font-[400] leading-[36px] mt-[8px]"
+                        >
+                          Runs Water Fishing Lakes
+                        </p>
+                      </div>
+                    </div>
+                    <div>
+                      <div
+                        class="bg-center bg-no-repeat bg-cover w-[250px] h-[160px]"
+                        style="
+                          background-image: url('../../image/Rectangle 300.png');
+                        "
+                      ></div>
+                      <div>
+                        <p
+                          class="text-[14px] font-[400] leading-[20px] mt-[8px]"
+                        >
+                          Family Friendly Fishing Lakes
+                        </p>
+                      </div>
+                    </div>
+                    <div>
+                      <div
+                        class="bg-center bg-no-repeat bg-cover w-[250px] h-[160px]"
+                        style="
+                          background-image: url('../../image/Rectangle 300 (1).jpeg');
+                        "
+                      ></div>
+                      <div>
+                        <p
+                          class="text-[14px] font-[400] leading-[20px] mt-[8px]"
+                        >
+                          Fishing Lakes With Swimming Pools
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+        <div class="w-full mt-2 flex justify-center">
+          <div class="max-w-[1440px] max-xxl:w-[100%]">
+            <div class="flex relative overflow-hidden max-lg:justify-center">
+              <button
+                class="absolute left-[30%] z-50 top-[50%] max-lg:left-[30%] max-md:left-[25%] max-sm:left-[15%]"
+                id="left"
+                onclick="changeSlider(-1)"
+              >
+                <img src="../../image/ICO_ARROW-LEFT.svg" alt="" />
+              </button>
+              <div
+                class="flex justify-center w-full h-[422px] max-lg:w-full overflow-hidden max-lg:items-center max-md:h-[57vw]"
+                id="slidesContainer"
+              >
+                <div
+                  class="w-[100vw] flex items-center overflow-hidden h-[422px] max-lg:justify-center max-sm:h-[300px]"
+                >
+                  <div
+                    class="flex justify-center items-center h-[300px] max-lg:h-[422px] slider"
+                  >
+                    <img
+                      src="../../image/image 39.jpg"
+                      class="max-lg:w-auto max-sm:h-[300px]"
+                    />
+                    <img
+                      src="../../image/image 38.svg"
+                      class="max-lg:w-auto max-sm:h-[300px]"
+                    />
+                    <img
+                      src="../../image/image 40.avif"
+                      class="max-lg:w-auto max-sm:h-[300px]"
+                    />
+                  </div>
+                </div>
+              </div>
+              <button
+                class="absolute right-[30%] top-[50%] max-lg:right-[30%] max-md:right-[25%] max-sm:right-[15%]"
+                onclick="changeSlider(1)"
+                id="right"
+              >
+                <img src="../../image/ICO_ARROW-LEFT (1).svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-center bg-coolGray w-[100%] max-md:justify-center max-sm:justify-start max-xs:justify-start"
+      >
+        <div
+          class="pl-[50px] h-80 w-1440 flex items-center max-xxl:ml-[7.5vw] max-lg:ml-0 max-xxl:p-0 max-lg:w-[85vw] max-md:ml-0 max-md:p-0 max-md:w-[89vw] max-xs:ml-[21px] max-sm:ml-[25px]"
+        >
+          <h1 class="text-[28px] font-600">Jonchery</h1>
+        </div>
+      </div>
+      <div class="mt-[20px] flex flex-col items-center max-sm:justify-center">
+        <div
+          class="pl-[50px] w-[1440px] flex flex-col items-start max-xxl:w-full max-xxl:pl-[7vw] max-lg:p-0 max-lg:items-center max-md:w-[90vw] max-md:justify-start max-xs:w-full max-xs:px-[21px]"
+        >
+          <div
+            class="relative flex justify-start items-center w-[1032px] h-[65px] pb-[10px] border-b border-[#DEE2E6] max-xxl:w-[85vw] max-lg:w-[85vw] max-lg:overflow-hidden max-lg:justify-center max-md:w-full max-md:justify-start max-md:ml-0 max-sm:ml-0"
+          >
+            <div
+              class="pos w-[1440px] max-xxl:w-full max-md:w-[90vw] max-xs:w-full"
+            >
+              <div class="div-slider">
+                <div
+                  class="button-L bg-rgradients h-full"
+                  onclick="changeSlide(-1)"
+                >
+                  <img
+                    src="../../image/ARROW-VECTOR - left.png"
+                    class="pt-[70%]"
+                  />
+                </div>
+                <div class="div-flex list-none">
+                  <li
+                    class="div-width sliders text-center text-[#1898D8] text-[14px] w-[104px] border border-[#1898D8] rounded-[20px] px-[16px] leading-[36px] max-xxl:text-[12px] cursur-point hover:text-white hover:bg-[#1898D8]"
+                  >
+                    <a href="/paiges/overview/overview.html"
+                      ><button>Overview</button></a
+                    >
+                  </li>
+                  <li
+                    class="sliders text-center text-[#1898D8] text-[14px] w-[88px] border border-[#1898D8] rounded-[20px] px-[16px] leading-[36px] max-xxl:text-[12px] cursur-point hover:text-white hover:bg-[#1898D8]"
+                  >
+                    <a href="/paiges/Gallery/gallery.html"
+                      ><button>Gallery</button></a
+                    >
+                  </li>
+                  <li
+                    class="sliders text-center text-[#1898D8] text-[14px] w-[73px] border border-[#1898D8] rounded-[20px] px-[16px] leading-[36px] max-xxl:text-[12px] cursur-point hover:text-white hover:bg-[#1898D8]"
+                  >
+                    <a href="/paiges/Lake/lake.html"><button>Lake</button></a>
+                  </li>
+                  <li
+                    class="sliders text-center text-[#1898D8] text-[14px] w-[67px] border border-[#1898D8] rounded-[20px] px-[16px] leading-[36px] max-xxl:text-[12px] cursur-point hover:text-white hover:bg-[#1898D8]"
+                  >
+                    <a href="/paiges/Fish/fish.html"><button>Fish</button></a>
+                  </li>
+                  <li
+                    class="sliders text-center text-[#1898D8] text-[14px] w-[99px] border border-[#1898D8] rounded-[20px] px-[16px] leading-[36px] max-xxl:text-[12px] cursur-point hover:text-white hover:bg-[#1898D8]"
+                  >
+                    <a href="/paiges/Facilities/facilities.html"
+                      ><button>Facilities</button></a
+                    >
+                  </li>
+                  <li
+                    class="sliders text-center text-[#1898D8] text-[14px] w-[95px] border border-[#1898D8] rounded-[20px] px-[16px] leading-[36px] max-xxl:text-[12px] cursur-point hover:text-white hover:bg-[#1898D8]"
+                  >
+                    <a href="/paiges/Reviews/reviews.html"
+                      ><button>Reviews</button></a
+                    >
+                  </li>
+                  <li
+                    class="sliders text-center text-[#1898D8] text-[14px] w-[167px] border border-[#1898D8] rounded-[20px] px-[16px] leading-[36px] max-xxl:text-[12px] max-lg:w-[120px] max-sm:w-[150px] cursur-point hover:text-white hover:bg-[#1989D8]"
+                  >
+                    <a href="/paiges/OptionalExtras/optionalextras.html"
+                      ><button class="max-xxl:w-[81px] max-sm:w-[90px]">
+                        Optional Extras
+                      </button></a
+                    >
+                  </li>
+                  <li
+                    class="sliders text-center text-[#1898D8] text-[14px] w-[77px] border border-[#1898D8] rounded-[20px] px-[16px] leading-[36px] max-xxl:text-[12px] cursur-point hover:text-white hover:bg-[#1898D8]"
+                  >
+                    <a href="/paiges/Rules/rules.html"
+                      ><button>Rules</button></a
+                    >
+                  </li>
+                  <li
+                    class="sliders text-center text-[#1898D8] text-[14px] w-[69px] border border-[#1898D8] rounded-[20px] px-[16px] leading-[36px] max-xxl:text-[12px] cursur-point hover:text-white hover:bg-[#1898D8]"
+                  >
+                    <a href="/paiges/FAQ/faq.html"><button>FAQ</button></a>
+                  </li>
+                  <li
+                    class="div-widthlast sliders text-center text-[#1898D8] text-[14px] w-[110px] border border-[#1898D8] rounded-[20px] px-[16px] leading-[36px] max-xxl:text-[12px] max-lg:w-[120px] max-sm:w-[150px] cursur-point hover:text-white hover:bg-[#1898D8]"
+                  >
+                    <a href="/paiges/latestnews/latestnews.html"
+                      ><button class="max-xxl:w-[81px] max-sm:w-[90px]">
+                        Latest News
+                      </button></a
+                    >
+                  </li>
+                </div>
+                <div
+                  class="button-R bg-lgradients h-full"
+                  onclick="changeSlide(1)"
+                >
+                  <img src="../../image/ARROW-VECTOR.png" class="pt-[70%]" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex justify-between w-[1240px] mt-[20px] max-xxl:w-[86.1vw] max-lg:justify-start max-lg:w-[74vw] max-md:w-full max-sm:justify-start"
+          >
+            <div
+              class="w-[777px] max-xxl:w-[53.9vw] max-lg:w-full max-md:w-full max-xs:w-full"
+            >
+              <div>
+                <div>
+                  <h2
+                    class="text-[#012539] text-[20px] font-[700] leading-[36px]"
+                  >
+                    Lake Rules
+                  </h2>
+                </div>
+                <div class="mt-[10px]">
+                  <p class="text-[15px] font-[400] leading-[24px]">
+                    Please do not arrive before
+                    <span class="text-[15px] font-[700] leading-[24px]"
+                      >3pm.</span
+                    >
+                    Please vacate by
+                    <span class="text-[15px] font-[700] leading-[24px]"
+                      >9am.</span
+                    >
+                  </p>
+                  <p>
+                    <span>Security Deposit;</span>
+                    A security deposit of
+                    <span class="text-[15px] font-[700] leading-[24px]"
+                      >€100</span
+                    >
+                    is required upon arrival. This will be returned to you at
+                    the end of the week subject to there being no damages
+                    incurred. You can also choose to pay this deposit in GBP
+                    instead of Euros if that is easier for you.
+                  </p>
+                </div>
+                <div class="mt-[50px] flex flex-col gap-[2px]">
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>
+                      You have the option to bring your own linen or use the
+                      linen service
+                      <span class="text-[15px] font-[700] leading-[24px]"
+                        >(10€ per single, 12€ per double). You must inform the
+                        lake owner in advance of your trip if you would like to
+                        hire the bed linen.</span
+                      >
+                      Please note - sleeping on beds with no bedding is not an
+                      option and will result in a deduction from the security
+                      deposit. If you wish to supply your own linen, you will
+                      need to bring sheets, pillow cases and duvet cover.
+                    </p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>
+                      Infants under the age of four are free of charge but must
+                      be added to the booking
+                    </p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>3 rods only. Rods must not be left unattended</p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>
+                      Unhooking mats obligatory. Landing nets must be 42 inch
+                      minimum
+                    </p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>Sacking of fish is NOT allowed</p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>
+                      No dangerous rigs. Fish must be able to free themselves in
+                      the event of a breakage
+                    </p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>Barbless or hooks with crushed barbs only</p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>Line must be 10lb BS minimum</p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>Bivvies and brollies must be green</p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>
+                      Please use toilet facilities provided. Please leave no
+                      litter, cigarette ends or line in swims. Lighting of fires
+                      is not allowed
+                    </p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>
+                      Bin bags are available on request, and can be left near
+                      the entrance on departure
+                    </p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>Baitboats are allowed</p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>Rowing boats and swimming are strictly forbidden</p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>
+                      Please do not bait excessively. There are no bait bans as
+                      yet, so we would ask for your common sense on baiting.
+                      Professionally prepared particles only eg. Quest, Dynamite
+                      baits etc
+                    </p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p>
+                      The management cannot accept any responsibility for
+                      accidents or theft
+                    </p>
+                  </div>
+                  <div class="flex gap-[10px]">
+                    <div class="w-[5px]">
+                      <div
+                        class="w-[6px] h-[6px] bg-black rounded-[50%] inline-block"
+                      ></div>
+                    </div>
+                    <p class="text-[15px] font-[700] leading-[24px]">No Dogs</p>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-[25px]">
+                <div>
+                  <div class="mb-[19px]">
+                    <h2
+                      class="text-[20px] text-[#012539] font-[700] leading-[36px]"
+                    >
+                      Anglers also viewed...
+                    </h2>
+                  </div>
+                  <div
+                    class="flex gap-[10px] w-[778px] max-xxl:w-[54vw] overflow-hidden relative max-lg:w-full max-sm:w-full max-xs:w-full"
+                  >
+                    <div
+                      class="h-[380px] w-[76px] bg-rgradient hidden absolute z-10"
+                    >
+                      <button
+                        class="absolute left-0 top-[42%]"
+                        onclick="Slide(-1)"
+                      >
+                        <img src="../../image/ARROW-VECTOR - left.png" alt="" />
+                      </button>
+                    </div>
+                    <div class="flex gap-[10px] slide-container w-[100%]">
+                      <div class="slider flex flex-col cursur-point">
+                        <div class="lex gap-[10px] overflow-hidden">
+                          <img src="../../image/image 24.svg" alt="" />
+                        </div>
+                        <div
+                          class="flex flex-col items-center w-[291.5px] border-l-2 border-r-2 border-b-2"
+                        >
+                          <div
+                            class="w-[250px] h-[1px] bg-[#D8D8D8] flex justify-center mt-[15px] mb-[10px]"
+                          ></div>
+                          <div class="flex justify-evenly w-[291px] mb-[20px]">
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/size.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                15 acres
+                              </p>
+                            </div>
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/fish.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                66lb
+                              </p>
+                            </div>
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/people.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                8 anglers
+                              </p>
+                            </div>
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/car.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                1h49m
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slider flex flex-col cursur-point">
+                        <div class="lex gap-[10px] overflow-hidden">
+                          <img src="../../image/image 24.svg" alt="" />
+                        </div>
+                        <div
+                          class="flex flex-col items-center w-[291.5px] border-l-2 border-r-2 border-b-2"
+                        >
+                          <div
+                            class="w-[250px] h-[1px] bg-[#D8D8D8] flex justify-center mt-[15px] mb-[10px]"
+                          ></div>
+                          <div class="flex justify-evenly w-[291px] mb-[20px]">
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/size.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                15 acres
+                              </p>
+                            </div>
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/fish.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                66lb
+                              </p>
+                            </div>
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/people.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                8 anglers
+                              </p>
+                            </div>
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/car.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                1h49m
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slider flex flex-col cursur-point">
+                        <div class="lex gap-[10px] overflow-hidden">
+                          <img src="../../image/image 24.svg" alt="" />
+                        </div>
+                        <div
+                          class="flex flex-col items-center w-[291.5px] border-l-2 border-r-2 border-b-2"
+                        >
+                          <div
+                            class="w-[250px] h-[1px] bg-[#D8D8D8] flex justify-center mt-[15px] mb-[10px]"
+                          ></div>
+                          <div class="flex justify-evenly w-[291px] mb-[20px]">
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/size.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                15 acres
+                              </p>
+                            </div>
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/fish.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                66lb
+                              </p>
+                            </div>
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/people.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                8 anglers
+                              </p>
+                            </div>
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/car.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                1h49m
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slider flex flex-col cursur-point">
+                        <div class="lex gap-[10px] overflow-hidden">
+                          <img src="../../image/image 24.svg" alt="" />
+                        </div>
+                        <div
+                          class="flex flex-col items-center w-[291.5px] border-l-2 border-r-2 border-b-2"
+                        >
+                          <div
+                            class="w-[250px] h-[1px] bg-[#D8D8D8] flex justify-center mt-[15px] mb-[10px]"
+                          ></div>
+                          <div class="flex justify-evenly w-[291px] mb-[20px]">
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/size.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                15 acres
+                              </p>
+                            </div>
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/fish.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                66lb
+                              </p>
+                            </div>
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/people.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                8 anglers
+                              </p>
+                            </div>
+                            <div
+                              class="flex flex-col justify-between items-center"
+                            >
+                              <img src="../../image/car.svg" alt="" />
+                              <p class="text-[12px] text-[#012539] font-[700]">
+                                1h49m
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="h-[380px] w-[76px] bg-lgradient justify-end absolute right-0 z-10"
+                    >
+                      <button
+                        class="absolute right-0 top-[42%]"
+                        onclick="Slide(1)"
+                      >
+                        <img src="../../image/ARROW-VECTOR.png" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-[23px] mb-[20px]">
+                <div
+                  class="w-[778px] h-[40px] flex justify-center border border-[#1898D8] rounded-[10px] z-10 max-lg:w-[68vw] max-xs:w-full"
+                >
+                  <button
+                    class="text-[#1898D8] text-[15px] font-[700] leading-[24px]"
+                  >
+                    Need any help?
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="ml-[66px] max-xxl:ml-[4.5vw] max-lg:hidden">
+              <div class="w-[400px] max-xxl:w-[27.7vw]">
+                <div class="mb-[14px]">
+                  <div>
+                    <h2
+                      class="text-[20px] text-[#012539] font-[700] leading-[36px]"
+                    >
+                      Example price
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="w-[400px] border border-[#DEE2E6] rounded-[10px] py-[20px] pl-[20px] max-xxl:w-[27.7vw]"
+                >
+                  <div class="flex flex-col gap-[15px]">
+                    <h1
+                      class="text-[#4CAE51] text-[50px] font-[600] leading-[36px]"
+                    >
+                      £433
+                    </h1>
+                    <p>Per angler for a week in Mar 2024 includes:</p>
+                    <div class="flex gap-[6px] leading-[19px]">
+                      <img src="../../image/Layer_12.svg" />
+                      <p>2 anglers</p>
+                    </div>
+                    <div class="flex gap-[6px] leading-[19px]">
+                      <img src="../../image/Layer_12.svg" />
+                      <p>1 Dover/Calais car crossing</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-[20px] flex flex-col gap-[10px]">
+                <div class="pt-[10px]">
+                  <div>
+                    <h2
+                      class="text-[#012539] text-[20px] font-[700] leading-[36px]"
+                    >
+                      Availability and Booking
+                    </h2>
+                    <p class="text-textgray">
+                      *Please choose a week to get a price
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="flex border-t border-b border-[#D8D8D8] max-lg:justify-center"
+                  >
+                    <div
+                      class="w-[50%] flex justify-between py-[10px] max-xxl:pr-[10px] max-lg:w-full max-lg:justify-between max-md:justify-between max-md:pr-0 max-md:gap-[10px] max-xxs:gap-0"
+                    >
+                      <img
+                        src="../../image/ARROW-LEFT.svg"
+                        class="mx-[5px] cursur-point max-md:mr-0"
+                        id="prevMonth"
+                        onclick="changeMonth(-1)"
+                      />
+                      <div class="hidden max-lg:block">
+                        <p
+                          class="text-[#7D7D7D] text-[15px] text-center w-fit font-[700] leading-[24px] max-lg:w-[8.6vw] max-md:text-[12px] max-sm:hidden overflow-hidden"
+                          id="prevMonthText"
+                        ></p>
+                      </div>
+                      <p
+                        class="text-[15px] text-center w-[90px] font-[700] leading-[24px] max-lg:w-[8.6vw] max-md:text-[12px] max-md:w-[13vw]"
+                        id="currentMonth"
+                      ></p>
+                      <div class="hidden max-lg:block">
+                        <p
+                          class="text-[#7D7D7D] text-[15px] text-center w-[90px] font-[700] leading-[24px] max-lg:w-[8.6vw] max-lg:block max-md:text-[12px] max-sm:hidden overflow-hidden"
+                          id="nextMonthText"
+                        ></p>
+                      </div>
+                      <img
+                        src="../../image/ARROW-RIGHT.svg"
+                        class="mx-[5px] cursur-point max-md:ml-0"
+                        id="nextMonth"
+                        onclick="changeMonth(1)"
+                      />
+                    </div>
+                    <div
+                      class="w-[50%] flex max-lg:w-[80%] max-md:w-[70%] max-sm:w-full"
+                    >
+                      <div
+                        class="w-full flex justify-between items-center border-l border-[#D8D8D8] max-md:justify-between max-sm:w-full"
+                      >
+                        <img
+                          src="../../image/ARROW-LEFT.svg"
+                          class="mx-[5px] max-xxl:mx-[10px] cursur-point max-md:ml-[5px] max-md:mr-0"
+                          id="prevYear"
+                          onclick="changeYear(-1)"
+                        />
+                        <div class="hidden max-lg:block">
+                          <p
+                            class="text-[#7D7D7D] w-[43px] text-[15px] font-[700] leading-[24px] max-lg:w-[8.6vw] max-lg:block text-center max-md:text-[12px] max-sm:hidden"
+                            id="prevYearText"
+                          ></p>
+                        </div>
+                        <p
+                          class="w-[43px] text-[15px] font-[700] leading-[24px] max-lg:w-[8.6vw] text-center max-md:text-[12px]"
+                          id="currentYear"
+                        ></p>
+                        <div class="hidden max-lg:block">
+                          <p
+                            class="hidden text-[#7D7D7D] w-[43px] text-[15px] font-[700] leading-[24px] max-lg:w-[8.6vw] max-lg:block text-center max-md:text-[12px] max-sm:hidden"
+                            id="nextYearText"
+                          ></p>
+                        </div>
+                        <img
+                          src="../../image/ARROW-RIGHT.svg"
+                          class="mx-[5px] cursur-point max-md:mr-[5px] max-md:ml-0"
+                          id="nextYear"
+                          onclick="changeYear(1)"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex flex-col gap-[10px]">
+                    <div
+                      class="border border-[#D8D8D8] rounded-[10px] h-[84px] p-[12px] week-card cursor-pointer"
+                    >
+                      <div>
+                        <div class="flex justify-between">
+                          <p class="text-[13px] font-[700] leading-[24px]">
+                            Week 1
+                          </p>
+                          <p
+                            class="text-[#4DAE51] text-[13px] font-[700] leading-[24px]"
+                          >
+                            16 spaces available
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="h-[1px] w-[376px] bg-[#D8D8D8] my-[6px] max-xxl:w-[26.1vw]"
+                      ></div>
+                      <div>
+                        <p class="text-[12px] font-[700] leading-[24px]">
+                          From 1st to 8th September, 2023
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="bg-[#F1F1F1] border border-[#D8D8D8] rounded-[10px] h-[84px] p-[12px] week-card cursor-pointer"
+                    >
+                      <div>
+                        <div class="flex justify-between">
+                          <p
+                            class="text-[#7D7D7D] text-[13px] font-[700] leading-[24px]"
+                          >
+                            Week 2
+                          </p>
+                          <p
+                            class="text-[#7D7D7D] text-[13px] font-[700] leading-[24px]"
+                          >
+                            Fully booked
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="h-[1px] w-[376px] bg-[#D8D8D8] my-[6px] max-xxl:w-[26.1vw]"
+                      ></div>
+                      <div>
+                        <p
+                          class="text-[#7D7D7D] text-[12px] font-[700] leading-[24px]"
+                        >
+                          From 8th to 15th September, 2023
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="border border-[#D8D8D8] rounded-[10px] h-[84px] p-[12px] week-card cursor-pointer"
+                    >
+                      <div>
+                        <div class="flex justify-between">
+                          <p class="text-[13px] font-[700] leading-[24px]">
+                            Week 3
+                          </p>
+                          <p
+                            class="text-[#4DAE51] text-[13px] font-[700] leading-[24px]"
+                          >
+                            4 spaces available
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="h-[1px] w-[376px] bg-[#D8D8D8] my-[6px] max-xxl:w-[26.1vw]"
+                      ></div>
+                      <div>
+                        <p class="text-[12px] font-[700] leading-[24px]">
+                          From 15th to 22nd September, 2023
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="border border-[#D8D8D8] rounded-[10px] h-[84px] p-[12px] week-card cursor-pointer"
+                    >
+                      <div>
+                        <div class="flex justify-between">
+                          <p class="text-[13px] font-[700] leading-[24px]">
+                            Week 4
+                          </p>
+                          <p
+                            class="text-[#4DAE51] text-[13px] font-[700] leading-[24px]"
+                          >
+                            16 spaces available
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="h-[1px] w-[376px] bg-[#D8D8D8] my-[6px] max-xxl:w-[26.1vw]"
+                      ></div>
+                      <div>
+                        <p class="text-[12px] font-[700] leading-[24px]">
+                          From 22nd to 29th September, 2023
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="bg-[#F1F1F1] border border-[#D8D8D8] rounded-[10px] h-[84px] p-[12px] week-card cursor-pointer"
+                    >
+                      <div>
+                        <div class="flex justify-between">
+                          <p
+                            class="text-[#7D7D7D] text-[13px] font-[700] leading-[24px]"
+                          >
+                            Week 5
+                          </p>
+                          <p
+                            class="text-[#7D7D7D] text-[13px] font-[700] leading-[24px]"
+                          >
+                            Fully booked
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="h-[1px] w-[376px] bg-[#D8D8D8] my-[6px] max-xxl:w-[26.1vw]"
+                      ></div>
+                      <div>
+                        <p
+                          class="text-[#7D7D7D] text-[12px] font-[700] leading-[24px]"
+                        >
+                          From 29th September to 5th October, 2023
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="bg-[#D8D8D8] rounded-[10px] flex cursur-point week-card"
+                    >
+                      <p
+                        class="text-[#7D7D7D] w-full text-center text-[16px] font-[600] leading-[36px] week-card-description"
+                      >
+                        Choose a week to get a price
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-[#051b0a] w-[100%] flex flex-col items-center">
+          <div
+            class="w-[1440px] max-xxl:w-[100%] max-lg:flex max-lg:flex-col max-lg:items-center"
+          >
+            <div
+              class="w-[715px] pl-[55px] flex flex-col max-xxl:pl-[7vw] mb-[50px] max-lg:w-[85vw] max-lg:pl-0 max-md:pl-0 max-md:w-[90vw] max-xs:w-full max-xs:pl-[19px] max-xs:pr-[21px]"
+            >
+              <div
+                class="w-[778px] border border-[#294657] mt-[10px] max-lg:hidden"
+              ></div>
+              <div class="flex justify-between">
+                <div class="w-[50px] my-[10px]">
+                  <img src="../../image/Layer_11.png" />
+                </div>
+              </div>
+              <div>
+                <p class="text-[#b4bdc2]">
+                  Registered at Companies House, Cardiff.
+                </p>
+
+                <p class="text-[#b4bdc2]">Company Number 4122063.</p>
+              </div>
+              <div class="my-[30px]">
+                <h2 class="text-[#b4bdc2] text-[20px] font-[700] mb-[10px]">
+                  SUBSCRIBE FOR THE NEWSLETTER
+                </h2>
+                <div class="flex gap-[15px] max-xxs:flex-col">
+                  <input
+                    type="text"
+                    placeholder="Your email"
+                    class="rounded-[10px] h-[40px] pl-[20px] bg-[#334864] max-sm:w-[150px] max-xxs:w-full"
+                  />
+                  <button
+                    class="bg-[#1698d8] text-white rounded-[10px] h-[40px] px-[20px] max-xxs:w-[150px]"
+                  >
+                    SUBSCRIBE
+                  </button>
+                </div>
+              </div>
+              <div class="flex gap-[15px] mb-[20px]">
+                <a href=""
+                  ><img src="../../image/facebook.svg" class="w-[30px]"
+                /></a>
+                <a href=""
+                  ><img src="../../image/twitter.svg" class="w-[30px]"
+                /></a>
+                <a href=""
+                  ><img src="../../image/youtube.svg" class="w-[30px]"
+                /></a>
+                <a href=""
+                  ><img src="../../image/instagram.svg" class="w-[30px]"
+                /></a>
+              </div>
+              <div>
+                <h2 class="text-[#b4bdc2] font-[700] mb-[10px]">CONTACT US</h2>
+                <div class="flex items-center gap-[5px] mb-[5px]">
+                  <img src="../../image/phone.png" class="w-[20px] h-[20px]" />
+                  <p class="text-[#b4bdc2]">01246 854553</p>
+                </div>
+                <div class="flex items-center gap-[5px]">
+                  <img src="../../image/mail.png" class="w-[20px] h-[20px]" />
+                  <p class="text-[#b4bdc2]">support@anglinglines.com</p>
+                </div>
+              </div>
+              <div class="mt-[30px]">
+                <div>
+                  <h2 class="text-[#b4bdc2] font-[700] mb-[10px]">VENUES</h2>
+                </div>
+                <div class="flex flex-col gap-[10px]">
+                  <a href="">
+                    <p class="text-[#b4bdc2]">Crap Fising France Lakes</p></a
+                  >
+                  <a href=""
+                    ><p class="text-[#b4bdc2]">
+                      Crap Fishing Lakes With Accommodation
+                    </p></a
+                  >
+                  <a href=""
+                    ><p class="text-[#b4bdc2]">Big Carp Fishing Lakes</p></a
+                  >
+                  <a href=""
+                    ><p class="text-[#b4bdc2]">Runs Water Fishing Lakes</p></a
+                  >
+                  <a href=""
+                    ><p class="text-[#b4bdc2]">
+                      Family Friendly Fishing Lakes
+                    </p></a
+                  >
+                  <a href=""
+                    ><p class="text-[#b4bdc2]">
+                      Fishing Lakes With Swimming Pools
+                    </p></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hidden max-lg:block">
+        <div
+          class="w-full h-[52px] bg-[#1898D8] fixed bottom-0 z-40 cursor-pointer"
+        >
+          <div class="flex justify-center items-center h-[52px]">
+            <p class="text-[#FFF]">Book this venue</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./rules.js"></script>
+  </body>
+</html>

@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lightboxOverlay {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.custom-width {
+  width: 1000px;
+  height: fit-content;
+}
+
+.cursur-point {
+  cursor: pointer;
+}
+
+.hiddenn {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.block {
+  max-height: fit-content;
+  overflow: hidden;
+  opacity: 1;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.hidden_menus {
+  display: none;
+}
+
+.visible_menu {
+  display: block;
+}
+
+.menu-scroll {
+  overflow: auto;
+  position: fixed;
+  height: 100%;
+}
+
+.hidden-cursor-point {
+  display: none;
+}
+
+.cursor-pointer {
+  display: block;
+}
+
+.fullheight {
+  height: fit-content;
+}
+
+.minheight {
+  height: 175px;
+}
+
+.absolutes {
+  position: absolute;
+}
+.block {
+  position: static;
+}
+
+.active-page {
+  border-radius: 50%;
+  background-color: #1898d8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-toggl {
+  display: block;
+}
+.date-toggl {
+  display: block;
+}
+
+#perPageOptions {
+  display: none;
+}
+
+#viewByOptions {
+  display: none;
+}
+.flexx {
+  display: flex;
+  gap: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+.div-flex {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  scroll-behavior: smooth;
+  transition: transform 0.5s ease-in-out;
+  padding-bottom: 10px;
+}
+
+.div-slider {
+  overflow-x: auto;
+  display: flex;
+}
+
+.button-L,
+.button-R {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 30;
+}
+
+.button-L {
+  left: 0;
+}
+
+.button-R {
+  right: 0;
+}
+
+.pos {
+  display: flex;
+  justify-content: start;
+}
+
+.div-width,
+.div-widthlast {
+  flex: 0 0 auto;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1898d8;
+}
+
+.div-widthlast {
+  width: 145px;
+}
+
+.div-flex::-webkit-scrollbar {
+  height: 2px;
+}
+
+.div-flex::-webkit-scrollbar-thumb {
+  background: #1898d8;
+  border-radius: 50%;
+}
+
+.div-flex::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+.fisher1 {
+background-image: url("./image/fisher1.jpg");
+}
+.fisher2 {
+background-image: url("./image/fisher2.jpg");
+}
+.fisher3 {
+background-image: url("./image/fisher3.jpg");
+}
